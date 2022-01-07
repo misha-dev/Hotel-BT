@@ -1,0 +1,276 @@
+/*Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+* {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: #2E2E2D;
+    font-weight: 800;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: center;
+}
+
+.menuEl {
+    padding: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.menuEl:hover {
+    background-color: #3F3F3E;
+    color: #CE9060;
+}
+
+
+#aboutHotel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 600px;
+    background: url('./images/showcase.jpg') no-repeat center center/cover;
+}
+
+
+.mainText {
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 240px;
+
+}
+
+.textPrimary {
+    color: #CE9060;
+}
+
+.aboutText {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 40px;
+
+}
+
+.butFl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt {
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #2E2E2D;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.butt:hover {
+    background-color: #3F3F3E;
+    color: #CE9060;
+}
+
+.imgBuilding {
+    min-width: 50%;
+    flex: 1;
+    background: url(./images/photo-1.jpg) no-repeat center center/cover;
+}
+
+.historyInfo {
+    padding: 60px;
+    color: whitesmoke;
+    background-color: #333333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.historyHeading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.historyText {
+    margin-top: 30px;
+    font-style: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.buttRead {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.buttRead:hover {
+    background-color: #CE9060;
+    color: black;
+}
+
+
+.box {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 80px 40px;
+    align-items: center;
+    flex: 1;
+}
+
+
+.box i {
+    margin-bottom: 30px;
+}
+
+.box h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bgPrimary {
+    background-color: #CE9060;
+    color: #2E2E2D;
+}
+
+
+footer#mainFooter {
+    text-align: center;
+    padding: 30px;
+    background-color: #2E2E2D;
+    color: white;
+}
