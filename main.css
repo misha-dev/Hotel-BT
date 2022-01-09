@@ -89,6 +89,11 @@ h6 {
     font-weight: inherit;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
 /*--------------------*/
 
 * {
@@ -257,8 +262,6 @@ h6 {
 }
 
 .box h3 {
-    font-weight: 500;
-    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -271,6 +274,65 @@ h6 {
 footer#mainFooter {
     text-align: center;
     padding: 30px;
-    background-color: #2E2E2D;
+    background-color: #333333;
     color: white;
+}
+
+#aboutHotelInfo {
+    padding: 40px 0;
+}
+
+.aboutHotelPhoto {
+
+    background: url(./images/photo-2.jpg) no-repeat center center/cover;
+    flex: 1;
+    border-radius: 45%;
+}
+
+
+.aboutHotelText {
+    padding: 40px;
+    flex: 2;
+    line-height: 20px;
+}
+
+.aboutHotelText h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutHotelText p:last-child {
+    margin-top: 20px;
+}
+
+
+#testimonials {
+    height: 600px;
+    padding: 50px;
+    background: url(./images/test-bg.jpg) no-repeat center center/cover;
+}
+
+#testimonials img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    padding: 20px;
+    background-color: #FFC981;
+    color: #2E2E2D;
+    border-radius: 5px;
+}
+
+
+.testimonial p {
+    padding: 20px;
+}
+
+.testimonial {
+    margin-top: 50px;
 }
