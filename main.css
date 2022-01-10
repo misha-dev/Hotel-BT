@@ -336,3 +336,71 @@ footer#mainFooter {
 .testimonial {
     margin-top: 50px;
 }
+
+#contactForm {
+    padding: 75px;
+}
+
+#contactForm h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#contactForm p {
+    margin-bottom: 20px;
+}
+
+
+#contactForm form {
+    border: 3px solid #2E2E2D;
+}
+
+#contactForm form label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formGroup {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#contactForm form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #333333;
+}
+
+#contactForm form input:focus {
+    border: 1px solid #f7c08a;
+}
+
+.btnForm {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #2E2E2D;
+    color: whitesmoke;
+}
+
+.btnForm:hover {
+    background-color: #3F3F3E;
+    color: #CE9060;
+}
+
+#contactInfo {
+    background-color: #3F3F3E;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#contactInfo.box {
+    color: whitesmoke;
+}
+
+.cWhite {
+    color: whitesmoke;
+}
