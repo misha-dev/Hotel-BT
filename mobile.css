@@ -1,0 +1,22 @@
+.wrapper {
+    flex-flow: column;
+}
+
+.menu {
+    flex-flow: column;
+}
+
+.mainText {
+    margin-top: 170px; ;
+}
+
+.box {
+    padding: 60px 40px;
+
+}
+
+
+.menuEl {
+    padding: 10px;
+    border-bottom: #444 dotted 1px
+}
