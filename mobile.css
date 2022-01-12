@@ -7,7 +7,8 @@
 }
 
 .mainText {
-    margin-top: 170px; ;
+    margin-top: 170px;
+    ;
 }
 
 .box {
@@ -19,4 +20,33 @@
 .menuEl {
     padding: 10px;
     border-bottom: #444 dotted 1px
+}
+
+.testimonial {
+    flex-flow: column;
+    align-items: center;
+}
+
+.aboutHotelText {
+    text-align: center;
+}
+
+#testimonials {
+    padding: 10px 40px;
+    height: 740px;
+}
+
+.testimonial p {
+    padding: 10px;
+    line-height: 17px;
+}
+
+
+.testimonial {
+    margin-top: 20px;
+}
+
+#contactForm {
+    padding: 40px;
+    text-align: center;
 }
